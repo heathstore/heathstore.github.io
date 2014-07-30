@@ -5,6 +5,13 @@
 function myFunction() {
     document.getElementById("demo").innerHTML = "Just Kidding! How do you like buttons now?";
 }
+
+function mouseOver(id,file){
+document.getElementById(id).src=file;
+}
+function mouseOut(id,file){
+document.getElementById(id).src=file;
+}
 </script>
 </head>
 
@@ -15,6 +22,13 @@ function myFunction() {
 <p id="demo">You're cute.</p>
 
 <button type="button" onclick="myFunction()">Click Me!</button>
+
+Look what else I can do!
+
+<img src="http://studentweb.stcloudstate.edu/ramc1001/puppy.jpg" id = 'pic'
+onmouseover="mouseOver(this.id, 'https://lh4.googleusercontent.com/-aEHvuqCEvuY/AAAAAAAAAAI/AAAAAAAAAAA/HuHOOBOoSDs/photo.jpg');"
+onmouseout="mouseOut(this.id, 'http://studentweb.stcloudstate.edu/ramc1001/puppy.jpg');"
+/>
 
 </body>
 </html>
