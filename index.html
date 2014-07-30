@@ -2,8 +2,15 @@
 <html>
 <head>
 <script>
+var click=true;
 function myFunction() {
+    if(Boolean(click)){
     document.getElementById("demo").innerHTML = "Just Kidding! How do you like buttons now?";
+    click=false;
+    }else{
+      document.getElementById("demo").innerHTML = "You're cute!"; 
+      click = true;
+    }
 }
 
 function mouseOver(id,file){
