@@ -1,41 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script>
-var click=true;
-function myFunction() {
-    if(Boolean(click)){
-    document.getElementById("demo").innerHTML = "Just Kidding! How do you like buttons now?";
-    click=false;
-    }else{
-      document.getElementById("demo").innerHTML = "You're cute!"; 
-      click = true;
-    }
-}
-
-function mouseOver(id,file){
-document.getElementById(id).src=file;
-}
-function mouseOut(id,file){
-document.getElementById(id).src=file;
-}
-</script>
+<title> FCS Web Design 7-9 </title>
+<link type="text/css" rel="stylesheet" href="stylesheet2.css">
 </head>
 
 <body>
+<div id="welcome" align="center" >
+<h1> Welcome!</h1>
+</div>
 
-<h1>Hello Koleman</h1>
+<div id="description">
+This is the homepage for the Fairfax Collegiate Summer Program Web Design Class! Below you 
+will find the links to each student's page! They've show such creativity and had lots of fun building these websites. We hope you enjoy them!
+</div>
 
-<p id="demo">You're cute.</p>
-
-<button type="button" onclick="myFunction()">Click Me!</button>
-
-Look what else I can do!
-
-<img src="http://studentweb.stcloudstate.edu/ramc1001/puppy.jpg" id = 'pic'
-onmouseover="mouseOver(this.id, 'https://lh4.googleusercontent.com/-aEHvuqCEvuY/AAAAAAAAAAI/AAAAAAAAAAA/HuHOOBOoSDs/photo.jpg');"
-onmouseout="mouseOut(this.id, 'http://studentweb.stcloudstate.edu/ramc1001/puppy.jpg');"
-/>
+<div id="links">
+</br>
+</br>
+<a href="pizza.html">Alexander's Page </a>
+</br>
+</br>
+<a href="swimming.html"> Allison's Page </a>
+</br>
+</br>
+<a href="pandas.html"> Anish's Page </a>
+</br>
+</br>
+<a href="hippos.html"> Ethan's Page </a>
+</br>
+</br>
+<a href="candy.html"> Keertana's Page </a>
+</div>
 
 </body>
 </html>
