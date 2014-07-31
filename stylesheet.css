@@ -1,3 +1,44 @@
 html{
-color:green;
+background: url(http://www.pptbackgrounds.net/uploads/blue-sky-nature-backgrounds-wallpapers.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+
+#welcome{
+
+font-size: 50px;
+color:#5C5CE6;
+
+
+
+}
+
+#description{
+font-size: 35px;
+position:absolute;
+top:300px;
+}
+
+
+#links{
+font-size: 30px;
+
+position:absolute;
+top:400px;
+}
+
+:link{
+color:#5C5CE6;
+}
+
+:visited{
+color:#9933FF;
+}
+
+:active{
+color:black;
 }
