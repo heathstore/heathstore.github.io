@@ -1,0 +1,92 @@
+
+html{
+color: black;	
+
+background-image:url(http://www.ottawasynchro.ca/css/pro/cust_stock_bg/pool_blue.jpg);}
+#swimming {
+
+color: 	#00CC66;}
+
+#ol{
+color:	#003D1F;}
+
+#ul{
+color:#003D1F;}
+
+#swimming{
+margin-left: 40%;
+font-size: 75px ;}
+
+#logo{
+margin-left: 31%;}
+
+
+
+strong{
+font-weight:normal;}
+
+
+
+#freetext{ 
+font-size:25px;
+color:black;
+float:left;
+width: 800px;}
+
+
+
+
+
+#backtext{ 
+font-size:25px;
+color:black;
+float:left;
+width: 800px;}
+
+#breasttext{ 
+font-size:25px;
+color:black;
+float:left;
+width: 800px;}
+
+#flytext{ 
+font-size:25px;
+color:black;
+float:left;
+width: 1200px;}
+
+#IMtext{ 
+font-size:25px;
+color:black;
+float:left;
+width: 800px;}
+
+#relaytext{ 
+font-size:25px;
+color:black;
+float:left;
+width: 1200px;}
+
+#drylandtext{ 
+font-size:25px;
+color:black;
+float:left;
+width: 1200px;}
+
+#starttext{ 
+font-size:25px;
+color:black;
+float:left;
+width: 800px;}
+
+#streamtext{ 
+font-size:25px;
+color:black;
+float:left;
+width: 800px;}
+
+#hyperlink{
+font-size:25;
+margin-left: 5%;
+
+}
