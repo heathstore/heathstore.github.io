@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>Swimming</title>
+<link type="text/css" rel="stylesheet" href="stylesheet.css">
+<script type="text/javascript">
+// Author: ideal-helper.com
+// Description: Photo slideshow to add your photos and embed into your website and blog post. 
+
+var x=0;
+
+function rotate(num){
+fs=document.ff.slide;
+x=num%fs.length;
+if(x<0) x=fs.length-1;
+document.images.show.src=fs.options[x].value;
+fs.selectedIndex=x;}
+
+function auto() {
+if(document.ff.fa.value == "Stop"){
+rotate(++x);setTimeout("auto()", 2000);}}
+</script>
+
+</head>
+<!--written by Allison Kopac, 7/21  -->
+<body>
+<div id="logo">
+<img src= "swimminglogo.gif" width=500px height=200px>
+</div>
+<hr>
+<div id="hyperlink">
+<a href="Freestyle.html"><button>Freestyle</button></a>
+<a href="Backstroke.html"><button>Backstroke</button></a>
+ <a href="Breaststroke.html"><button>Breaststroke</button></a>
+ <a href="Butterfly.html"><button>Butterfly</button></a>
+ <a href="IM.html"><button>Individual Medley</button></a>
+<a href="relay.html"><button>Relays</button></a>
+ <a href="dryland.html"><button>Dry land</button></a>
+ <a href="start.html"><button>Starts and Turns</button></a>
+ <a href="stream.html"><button>Streamlines</button></a>
+ <a href="meet.html"><button>Swim Meets</button></a>
+ <a href="funny.html"><button>Swimming Quotes</button></a>
+ <a href="source.html"><button>Sources</button></a>
+
+</div>
+
+<div id = "slideshow">
+</br>
+</br>
+</br>
+
+
+
+<form name="ff">
+<table cellpadding="3" style="border ;border-collapse:collapse; border-color:#C0C0C0">
+<tr><th align="center">Swimming Photos</th></tr>
+
+<tr><td align="center">
+<img src="quote13.gif" name="show">
+</td></tr>
+
+<tr><td align="center" style="border; border-color:#00CC66">
+
+<input type="button" onclick="rotate(x-1);" value="Previous" title="Previous photo" style="width:80px;" />
+<input type="button" name="fa" onClick="this.value=((this.value=='Stop')?'Start':'Stop');auto();" value="Start Slidshow" title="Auto-play" style="width:150px;" />
+<input type="button" onclick="rotate(x+1);" value="Next" title="Next Photo" style="width:80px;" />
+
+
+<select name="slide" onChange="rotate(this.selectedIndex);">
+<option value="quotenew.gif">1</option>
+<option value="Quote10.gif">2</option>
+<option value="quote11.gif">3</option>
+<option value="quote13.gif">4</option>
+</select>
+</td></tr>
+
+</table>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+ 
+ </br>
+ </br>
+ </br>
+</br>
+ 
+</br>
+</br>
+</br>
+</br>
+</br>
+
+ 
+<div id= "backgroundpic">Background photo-
+Author:Ottawa Synchro
+Source:http://www.ottawasynchro.ca/css/pro/cust_stock_bg/pool_blue.jpg
+</div>
+
+</body>
+</html>
