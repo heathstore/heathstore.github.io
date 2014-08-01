@@ -1,0 +1,14 @@
+body {
+color: black;
+font-family:"Palatino";	
+background-image:url(http://anymaytion.com/wp-content/uploads/2014/03/Background-Sweet-Candy-Land-Wallpaper-1024x576.jpg);
+}
+em { font-style:italic; font-weight:bold; }
+	strong { text-transform:uppercase; font-weight:bold;
+}
+
+#return{
+position:absolute;
+top:10px;
+left:250px
+}
